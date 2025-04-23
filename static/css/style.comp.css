@@ -16,6 +16,7 @@
 }
 .checkout__botao:hover, .subtotal__botao:hover, .s-produto__adicicionar:hover {
   background-color: #2b8553;
+  
 }
 
 * {
