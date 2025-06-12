@@ -34,7 +34,7 @@ Este é um projeto completo de e-commerce desenvolvido com **Django** como parte
 1. **Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/marcelloprado/ecommerce-python
 cd seu-repositorio
 ```
 
