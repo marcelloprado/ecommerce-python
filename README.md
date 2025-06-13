@@ -74,7 +74,7 @@ http://127.0.0.1:8000/
   <img src="media/adminDjango.gif" alt="Painel admin do e-commerce" width="400">
 </p>
 
-👨‍💻 Autor
+👨‍💻 Autor: <br>
 Desenvolvido por ***Marcello Prado*** durante os estudos com Django.
           
            
