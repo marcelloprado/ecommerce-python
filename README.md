@@ -70,7 +70,9 @@ Abra o navegador e vá para:
 http://127.0.0.1:8000/
 ```
 📷 Prints do sistema
-
+<p align="center">
+  <img src="media/adminDjango.gif" alt="Painel admin do e-commerce" width="400">
+</p>
 
 👨‍💻 Autor
 Desenvolvido por ***Marcello Prado*** durante os estudos com Django.
