@@ -21,10 +21,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-p+(97%aqf5&hq23tl4^f#g8e5l89fh#*)-lu5q@prfkt3oa4dt'
+
+# SECRET_KEY = 'django-insecure-p+(97%aqf5&hq23tl4^f#g8e5l89fh#*)-lu5q@prfkt3oa4dt'
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-p+(97%aqf5&hq23tl4^f#g8e5l89fh#*)-lu5q@prfkt3oa4dt')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = []
 
@@ -143,6 +146,8 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "marcellopradomuller@gmail.com"
-EMAIL_HOST_PASSWORD = "kjzesnbsbxblqnpz"
+# EMAIL_HOST_USER = "marcellopradomuller@gmail.com"
+# EMAIL_HOST_PASSWORD = "kjzesnbsbxblqnpz"
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', 'marcellopradomuller@gmail.com')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', 'kjzesnbsbxblqnpz')
 
